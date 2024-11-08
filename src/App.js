@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Issuances from './tabs/issuances';
+import Mempool from './tabs/mempool';
 import './App.css';
 
 import React, { useState } from 'react';
@@ -10,8 +11,7 @@ function App() {
 
   const tabs = [
     { label: 'Issuances', content: <Issuances apiEndpoint={apiEndpoint}/>  },
-    { label: 'Tab 2', content: 'Content for Tab 2' },
-    { label: 'Tab 3', content: 'Content for Tab 3' },
+    { label: 'Mempool', content: <Mempool apiEndpoint={apiEndpoint}/> },
   ];
 
   return (
