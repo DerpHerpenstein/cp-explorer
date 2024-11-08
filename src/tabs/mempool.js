@@ -1,6 +1,6 @@
 // Mempool.js
 import React, { useState } from 'react';
-import IframeModal from '../modals/iframeModal';
+import IframeModal from '../modals/iframemodal';
 
 const Mempool = ({ apiEndpoint }) => {
 
